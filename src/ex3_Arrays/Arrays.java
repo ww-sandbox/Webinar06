@@ -7,15 +7,7 @@ public class Arrays {
 
         for (int x: tab
              ) {
-            System.out.println(tab[x]);
+            System.out.println(x);
         }
-
-        int i = 5;
-        while(i>0){
-            System.out.println(i--);
-        }
-        do{
-            System.out.println(i++);
-        } while(i<5);
     }
 }
